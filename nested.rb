@@ -9,13 +9,13 @@ def hopper
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"],
-          return programmer_hash[:alan_kay][:known_for]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
         }
      }
+       programmer_hash[:alan_kay][:known_for]
 return programmer_hash[:grace_hopper]
 
 end
