@@ -83,10 +83,8 @@ def adding_matz
           :languages => ["C"]
         }
      }
-     new_hash = :yukihiro_matsumoto => {
-  :known_for => "Ruby",
-   :languages => ["LISP", "C"]}
-   
+     new_hash = :yukihiro_matsumoto => { :known_for => "Ruby", :languages => ["LISP", "C"]}
+    programmer_hash.shift()
     return new_hash
  end
 
